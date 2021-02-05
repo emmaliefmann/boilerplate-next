@@ -1,9 +1,12 @@
 import Link from 'next/link'
-
+import styles from '../styles/Nav.module.scss'
 
 const Nav = () => {
     return (
-        <nav>
+        <nav className={styles.nav}>
+            <div className="logo">
+                <p>logo</p>
+            </div>
             <ul>
                 <li>
                     <Link href='/'>Home</Link>

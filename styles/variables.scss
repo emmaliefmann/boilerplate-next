@@ -1,0 +1,14 @@
+//color palette
+$main-color: red;
+$dark-color: blue;
+$light-color: yellow;
+
+//fonts
+
+//flexbox mixins
+@mixin flexboxCenter($direction) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  justify-content: center;
+}
